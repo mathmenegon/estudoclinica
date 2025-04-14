@@ -1,0 +1,80 @@
+body{
+    background-color: #FAFAFA;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+header{
+    display: flex;
+    margin-left: 256px;
+}
+
+.logomini{
+    height:53px;
+    width:117px;
+    margin-right: 133px;
+}
+
+a{
+    display: inline-block;
+    margin-top: 19px;
+}
+
+main{
+    display: flex;
+}
+
+.logo{
+    width: 402px;
+    height: 402px;
+    margin: 339px 541px 339px 256px
+}
+
+.login{
+    width: 485px;
+    height: 423px;
+    margin: 328px 231px 329px 0px;
+    box-shadow: 10px 10px 30px rgb(0, 0, 0, 0.2);
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 84px 0px 59px 210px;
+}
+
+input{
+    display: block;
+    margin: 0px 0px 36px 89px;
+    width: 307px;
+    height: 33px;
+    padding-left: 14px;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+input::placeholder{
+    color: #A0A0A0;
+    font-size: 14px;
+}
+
+
+
+button{ 
+    display: block;
+    width: 327px;
+    height: 33px;
+    margin: 0px 0px 10px 89px;
+}
+
+button:hover{
+    background-color: #70c5ca;
+    color: white;
+    cursor: pointer;
+}
+
+.lostpass{
+    margin: 0px 0px 0px 89px;;
+}
+
+
+
